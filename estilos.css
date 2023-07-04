@@ -1,0 +1,165 @@
+
+ .holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .linha{
+    background-color: rgb(132, 59, 204);
+    border: 3px;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+ }
+
+.menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    
+
+ 
+}
+
+
+#coluna{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    
+}
+
+.redondo{
+    border-radius: 20%;
+}
+
+.roxo{
+    background-color: blueviolet;
+    padding: 20px;
+    color: rgb(216, 207, 207);
+}
+
+a:link{
+    text-decoration: none;
+    padding-inline-start: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#boto{
+    border-style: solid;
+    border-color: rgb(75, 75, 75);
+}
+
+#image {
+   
+    position: relative;
+  }
+  
+#texto {
+    position: relative;
+    font-size:100px;
+    display: grid;
+    justify-items: center;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+  }
+
+#texto2 {
+    position: absolute;
+    font-size:60px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.centro{
+    text-align: center;
+}
+p{
+    
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    
+    
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px; 
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px; 
+
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px; 
+
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px; 
+
+}
+
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px; 
+    font-size:large;
+
+}
+
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    font-size: small; 
+
+}
+
+iframe{
+    margin: 30px;
+    
+}
+
+img{
+    margin: 30px;
+}
+
+footer{
+    padding: 2%;
+   
+    text-align: center;
+}
+
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+
+}
+img{
+  margin: auto;
+  display: block
+
+}
+
+.mudanca{
+    background-color:rgb(222, 215, 231);
+    width:auto;
+    padding: 2%;
+    justify-self: center;
+}
+
+#teste{position:relative}
+#teste:hover{top:-2px;border-bottom:2px solid #999}
